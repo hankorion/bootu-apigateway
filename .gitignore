@@ -25,6 +25,7 @@ hs_err_pid*
 # maven target
 */target/**
 **/target/**
+.mvn/**
 
 # ignore eclipse files
 *.project
@@ -35,3 +36,5 @@ hs_err_pid*
 
 #.gitignore for java
 *.class
+
+*.springBeans
