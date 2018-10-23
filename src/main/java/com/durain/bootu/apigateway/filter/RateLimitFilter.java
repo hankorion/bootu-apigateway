@@ -12,7 +12,7 @@ import com.netflix.zuul.exception.ZuulException;
 @Component
 public class RateLimitFilter extends ZuulFilter {
 
-	private static final RateLimiter RATE_LIMTER = RateLimiter.create(100);
+	private static final RateLimiter RATE_LIMTER = RateLimiter.create(500);
 
 	@Override
 	public String filterType() {
